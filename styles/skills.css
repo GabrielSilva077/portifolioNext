@@ -1,4 +1,4 @@
-.pai-habilidade{
+.pai-habilidade {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,11 +6,11 @@
     margin-top: 10%;
 }
 
-.imgs{
+.imgs {
     width: 100%;
 }
 
-.list-disc{
+.list-disc {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -18,15 +18,16 @@
     gap: 20px;
 }
 
-.geralH{
+.geralH {
     width: 100%;
 }
 
-.habilidades{
+.habilidades {
     width: 10%;
     margin-top: 100px;
 }
 
-.habilidades li{
-    font-size: 50px;
+.habilidades li {
+    font-size: clamp(1rem, 5vw, 3rem);
+
 }

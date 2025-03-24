@@ -85,4 +85,12 @@
     .border:hover{
         transform: none;
     }
+
+    .pai-habilidade {
+        margin-top: 50%;
+    }
+
+    .contact-pai{
+        margin-top: 40%;
+    }
 }
