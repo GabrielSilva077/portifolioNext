@@ -1,0 +1,31 @@
+.navPai {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.192);
+    height: 80px;
+    padding: 20px;
+    top: 0;
+    font-size: 20px;
+    z-index: 1;
+    backdrop-filter: blur(10px); 
+}
+
+.navPai a {
+    margin-left: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.navPai a:hover {
+    color: #00c8ff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid #00c8ff; 
+    transition: all 0.3s ease-in-out;
+}

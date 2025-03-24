@@ -1,0 +1,111 @@
+.pagina-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    margin-top: 5%;
+}
+
+.conteudo-principal {
+    max-width: 1200px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.titulo-principal {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.perfil {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.foto-container {
+    flex-shrink: 0;
+}
+
+#foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.informacoes-pessoais {
+    flex: 1;
+    min-width: 280px;
+}
+
+.nome {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.profissao {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: white;
+    line-height: 1.6;
+}
+
+.dados-pessoais .dado {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.titulo-secao {
+    font-size: 24px;
+    margin: 40px 0 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.linha-do-tempo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-experiencia,
+.item-educacao {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cargo,
+.curso {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.empresa,
+.instituicao {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.item-experiencia .descricao,
+.item-educacao .descricao {
+    color: #333;
+}

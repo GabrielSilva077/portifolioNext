@@ -1,0 +1,41 @@
+.pai{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10%;
+    margin-top: 10%;
+}
+
+.foto{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 300px;
+}
+
+.vProjetos{
+    display: flex;
+    justify-content: start;
+    gap: 10%;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 10%;
+}
+
+.vProjetos:hover{
+    color: #00c8ff;
+    transition: 0.2s all ease-in-out;
+    background-color: rgb(209, 207, 207);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
+}
+
+.pai-seta{
+    width: 35%;
+}
+
+.text-p{
+    font-size: 20px;
+}

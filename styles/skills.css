@@ -1,0 +1,32 @@
+.pai-habilidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.imgs{
+    width: 100%;
+}
+
+.list-disc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.geralH{
+    width: 100%;
+}
+
+.habilidades{
+    width: 10%;
+    margin-top: 100px;
+}
+
+.habilidades li{
+    font-size: 50px;
+}
