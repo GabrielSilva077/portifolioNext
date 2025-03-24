@@ -1,4 +1,5 @@
 import ProjectCard from "../../components/ProjectCard";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -9,10 +10,17 @@ export default function Projects() {
           <ProjectCard
             title="Projeto 1 - Nike"
             description="O projeto é uma vitrine interativa de tênis, com um design
-           profissional inspirado em sites de grandes marcas como a Nike. A proposta 
-           é criar uma plataforma onde os usuários possam visualizar diferentes modelos e cores
-           de tênis, com uma interface limpa, moderna e interativa."
-            image="/img/projeto1.png"
+             profissional inspirado em sites de grandes marcas como a Nike. A proposta 
+             é criar uma plataforma onde os usuários possam visualizar diferentes modelos e cores
+             de tênis, com uma interface limpa, moderna e interativa."
+            image={
+              <Image
+                src="/img/projeto1.png"
+                alt="Projeto 1 - Nike"
+                width={500}
+                height={300}
+              />
+            }
           />
 
           <ProjectCard
@@ -21,7 +29,14 @@ export default function Projects() {
              permitir que amigos e familiares comprem presentes para os noivos de forma prática 
              e elegante. O design será acolhedor e romântico, refletindo a celebração do amor,
               com animações suaves para tornar a experiência de navegação envolvente e especial."
-            image="/img/projeto2.png"
+            image={
+              <Image
+                src="/img/projeto2.png"
+                alt="Projeto 2 - Casamento"
+                width={500}
+                height={300}
+              />
+            }
           />
 
           <ProjectCard
@@ -31,7 +46,14 @@ export default function Projects() {
              populares, permite visualizar detalhes sobre os conteúdos e simula um reprodutor de vídeo para 
              assistir aos trailers. O design é responsivo, funcionando bem em dispositivos móveis e desktop. 
              O objetivo é criar uma experiência de usuário simples e interativa, utilizando HTML, CSS e JavaScript."
-            image="/img/projeto3.png"
+            image={
+              <Image
+                src="/img/projeto3.png"
+                alt="Projeto 3 - Clone Netflix"
+                width={500}
+                height={300}
+              />
+            }
           />
 
           <ProjectCard
@@ -41,7 +63,14 @@ export default function Projects() {
             e preços, além de mostrar informações sobre a pizzaria, como localização e horário de funcionamento. O cliente pode
              adicionar pizzas ao carrinho e fazer um pedido básico. O design é simples e responsivo, com uso de HTML, CSS e JavaScript
               para interatividade e uma experiência de navegação agradável."
-            image="/img/projeto4.png"
+            image={
+              <Image
+                src="/img/projeto4.png"
+                alt="Projeto 4 - Pizzaria"
+                width={500}
+                height={300}
+              />
+            }
           />
         </div>
       </div>
